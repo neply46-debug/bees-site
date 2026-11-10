@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пчёлки 🐝</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐝</text></svg>">
+</head>
+<body>
+    <div class="card">
+        <h1>Привет! Ответь на один вопросик! 🐝</h1>
+
+        <div class="options">
+            <p><span>1</span> я уважаю пчелок</p>
+            <p><span>2</span> я не уважаю пчелок</p>
+        </div>
+
+        <form id="answer-form" autocomplete="off">
+            <input type="text" id="answer-input" placeholder="Напиши свой ответ..." required>
+            <button type="submit">Ответить</button>
+        </form>
+
+        <div id="result" class="result hidden"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
